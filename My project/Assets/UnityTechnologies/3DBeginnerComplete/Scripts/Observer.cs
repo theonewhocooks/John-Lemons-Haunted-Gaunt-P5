@@ -38,6 +38,7 @@ public class Observer : MonoBehaviour
                 if (raycastHit.collider.transform == player)
                 {
                     gameEnding.CaughtPlayer ();
+                    Debug.Log("i jerk off to skibidi toliet");
                 }
             }
         }
